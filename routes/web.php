@@ -21,3 +21,7 @@ Route::get('/tienda', function () {
 Route::get('/delivery', function () {
     return view('delivery');
 })->name('delivery');
+
+Route::get('/contacto', function () {
+    return view('contacto');
+})->name('contacto');

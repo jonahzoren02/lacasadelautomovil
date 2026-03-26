@@ -55,8 +55,8 @@
         </div>
 
         <div class="flex justify-center my-6">
-            <div class="">
-                <img src="{{ asset('img/delivery_huamanga.png') }}" alt="Foto de clientes 01" class="max-w-xl">
+            <div class="w-9/10 max-w-xl">
+                <img src="{{ asset('img/delivery_huamanga.png') }}" alt="Foto de clientes 01" class="w-full">
             </div>
         </div>
 
@@ -84,14 +84,16 @@
         </div>
 
         <div class="flex justify-center my-6">
-            <div>
-                <img src="{{ asset('img/delivery_mapa.png') }}" alt="Foto de clientes 01" class="max-w-xl">
+            <div class="w-9/10 max-w-xl">
+                <img src="{{ asset('img/delivery_mapa.png') }}" alt="Foto de clientes 01" class="w-full">
             </div>
         </div>
 
         <div class="flex flex-col items-center">
             <h2 class="text-center text-3xl font-semibold mx-15 my-8 ">ENTREGA EN TIENDA</h2>
-            <img src="{{ asset('img/delivery_googlemaps.png') }}" alt="Mapa de Google Maps" class="max-w-3xl">
+            <div class="w-9/10 max-w-2xl">
+                <img src="{{ asset('img/delivery_googlemaps.png') }}" alt="Mapa de Google Maps" class="w-full">
+            </div>
         </div>
         <div class="flex flex-col items-center my-6">
             <p class="text-2xl">Jr Maracaibo - Jesus Nazareno</p>

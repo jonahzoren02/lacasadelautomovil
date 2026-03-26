@@ -101,7 +101,7 @@
                             <a href="{{ route('delivery') }}" class="text-black">Envíos rápidos</a>
                         </li>
                         <li class="border-b border-gray-500 py-1">
-                            <a href="#" class="text-black">Contacto</a>
+                            <a href="{{ route('contacto') }}" class="text-black">Contacto</a>
                         </li>
                     </ul>
                 </div>
@@ -124,10 +124,10 @@
                     <a href="{{ route('tienda') }}" class="text-white group-hover:text-red-600">Tienda</a>
                 </li>
                 <li class="py-1 px-4 hover:bg-gray-200/80 group rounded-md">
-                    <a href="#" class="text-white group-hover:text-red-600">Envios rápidos</a>
+                    <a href="{{ route('delivery') }}" class="text-white group-hover:text-red-600">Envios rápidos</a>
                 </li>
                 <li class="py-1 px-4 hover:bg-gray-200/80 group rounded-md">
-                    <a href="#" class="text-white group-hover:text-red-600">Contacto</a>
+                    <a href="{{ route('contacto') }}" class="text-white group-hover:text-red-600">Contacto</a>
                 </li>
             </ul>
         </div>
