@@ -76,7 +76,7 @@
 
                 <!--Secondary menu-->
                 <div id="navbar-main"
-                    class="hidden fixed inset-s-0 top-14 sm:top-16 bg-white shadow-md h-screen w-96 z-50">
+                    class="hidden fixed inset-s-0 top-14 sm:top-16 bg-white shadow-md h-screen w-96 -z-50">
                     <div class="relative w-full flex justify-center my-3">
                         <form action="">
                             <input type="text" class="block w-80" placeholder="Buscar...">
@@ -86,13 +86,22 @@
                     </div>
                     <ul class="mx-6 my-3 flex flex-col gap-2">
                         <li class="border-b border-gray-500 py-1">
-                            <a href="#" class="text-black">Inicio</a>
+                            <a href="{{ route('inicio') }}" class="text-black">Inicio</a>
                         </li>
                         <li class="border-b border-gray-500 py-1">
-                            <a href="#" class="text-black">Productos</a>
+                            <a href="{{ route('porque-elegirnos') }}" class="text-black">Por que elegirnos</a>
                         </li>
                         <li class="border-b border-gray-500 py-1">
-                            <a href="#" class="text-black">Servicios</a>
+                            <a href="{{ route('nosotros') }}" class="text-black">Nosotros</a>
+                        </li>
+                        <li class="border-b border-gray-500 py-1">
+                            <a href="{{ route('tienda') }}" class="text-black">Tienda</a>
+                        </li>
+                        <li class="border-b border-gray-500 py-1">
+                            <a href="{{ route('delivery') }}" class="text-black">Envíos rápidos</a>
+                        </li>
+                        <li class="border-b border-gray-500 py-1">
+                            <a href="#" class="text-black">Contacto</a>
                         </li>
                     </ul>
                 </div>
@@ -102,19 +111,22 @@
         <!-- Submenu -->
         <div class="bg-gray-800 mb-2 mx-auto max-w-5xl rounded-b-xl hidden lg:block">
             <ul class="mx-6 flex justify-around gap-6">
-                <li class="py-1 px-4 hover:bg-gray-200 group rounded-md">
-                    <a href="#" class="text-white group-hover:text-red-600">Inicio</a>
+                <li class="py-1 px-4 hover:bg-gray-200/80 group rounded-md">
+                    <a href="{{ route('inicio') }}" class="text-white group-hover:text-red-600">Inicio</a>
                 </li>
-                <li class="py-1 px-4 hover:bg-gray-200 group rounded-md">
-                    <a href="#" class="text-white group-hover:text-red-600">Productos</a>
+                <li class="py-1 px-4 hover:bg-gray-200/80 group rounded-md">
+                    <a href="{{ route('porque-elegirnos') }}" class="text-white group-hover:text-red-600">Por que elegirnos</a>
                 </li>
-                <li class="py-1 px-4 hover:bg-gray-200 group rounded-md">
-                    <a href="#" class="text-white group-hover:text-red-600">Servicios</a>
+                <li class="py-1 px-4 hover:bg-gray-200/80 group rounded-md">
+                    <a href="{{ route('nosotros') }}" class="text-white group-hover:text-red-600">Nosotros</a>
                 </li>
-                <li class="py-1 px-4 hover:bg-gray-200 group rounded-md">
-                    <a href="#" class="text-white group-hover:text-red-600">Nosotros</a>
+                <li class="py-1 px-4 hover:bg-gray-200/80 group rounded-md">
+                    <a href="{{ route('tienda') }}" class="text-white group-hover:text-red-600">Tienda</a>
                 </li>
-                <li class="py-1 px-4 hover:bg-gray-200 group rounded-md">
+                <li class="py-1 px-4 hover:bg-gray-200/80 group rounded-md">
+                    <a href="#" class="text-white group-hover:text-red-600">Envios rápidos</a>
+                </li>
+                <li class="py-1 px-4 hover:bg-gray-200/80 group rounded-md">
                     <a href="#" class="text-white group-hover:text-red-600">Contacto</a>
                 </li>
             </ul>

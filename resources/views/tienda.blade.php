@@ -1,10 +1,10 @@
 <x-app-layout>
     <!-- Breadcrumbs -->
-    <div class="sticky top-14 z-50 flex items-center bg-gray-800 h-12 text-white">
+    <div class="sticky top-14 z-40 flex items-center bg-gray-800 h-12 text-white">
         <nav class="flex ml-4" aria-label="Breadcrumb">
             <ol class="inline-flex items-center space-x-1 md:space-x-2 rtl:space-x-reverse">
                 <li class="inline-flex items-center">
-                    <a href="#" class="inline-flex items-center text-sm font-medium text-white hover:text-fg-brand">
+                    <a href="#" class="inline-flex items-center text-sm font-medium text-white hover:text-red-600">
                         <svg class="w-4 h-4 me-1.5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24"
                             height="24" fill="none" viewBox="0 0 24 24">
                             <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
@@ -22,7 +22,7 @@
                                 d="m9 5 7 7-7 7" />
                         </svg>
                         <a href="#"
-                            class="inline-flex items-center text-sm font-medium text-white hover:text-fg-brand">Tienda</a>
+                            class="inline-flex items-center text-sm font-medium text-white hover:text-red-600">Tienda</a>
                     </div>
                 </li>
             </ol>

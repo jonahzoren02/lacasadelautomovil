@@ -21,7 +21,7 @@ var swiperSimpleProducts = new Swiper(".swiper-products", {
     },
 });
 
-const swiperMultipleCategories = new Swiper(".swiper-categories", {
+var swiperMultipleCategories = new Swiper(".swiper-categories", {
     loop: true,
     slidesPerView: 4,
     spaceBetween: 2,
@@ -42,7 +42,7 @@ const swiperMultipleCategories = new Swiper(".swiper-categories", {
     },
 });
 
-const swiperMultipleOffers = new Swiper(".swiper-offers", {
+var swiperMultipleOffers = new Swiper(".swiper-offers", {
     loop: true,
     slidesPerView: 2,
     spaceBetween: 7,
@@ -62,3 +62,42 @@ const swiperMultipleOffers = new Swiper(".swiper-offers", {
         }
     }
 });
+
+var swiperSimpleBrands = new Swiper(".swiper-brands", {
+    loop: true,
+    slidesPerView: 3,
+    spaceBetween: 2,
+    autoplay: {
+        delay: 2500,
+    },
+    breakpoints: {
+        640: {
+            slidesPerView: 4,
+        },
+        1024: {
+            slidesPerView: 5,
+        },
+    },
+});
+
+var swiperSimpleClients = new Swiper(".swiper-clients", {
+    loop: true,
+    slidesPerView: 2,
+    spaceBetween: 1,
+    autoplay: {
+        delay: 2500,
+    },
+    breakpoints: {
+        640: {
+            slidesPerView: 3,
+        },
+        1024: {
+            slidesPerView: 5,
+        },
+    },
+    pagination: {
+        el: "carousel-clients .swiper-pagination",
+        clickable: true,
+    },
+});
+
