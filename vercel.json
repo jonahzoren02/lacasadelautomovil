@@ -8,12 +8,14 @@
     },
     "installCommand": "npm install",
     "buildCommand": "npm run build",
+    
     "routes": [
-        {
+        { 
             "src": "/(.*)",
-            "dest": "/api/index.php"
+            "dest": "/api/index.php" 
         }
     ],
+    "outputDirectory": "public",
     "env": {
         "APP_ENV": "production",
         "APP_DEBUG": "true",
